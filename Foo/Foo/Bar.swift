@@ -12,9 +12,9 @@ import FooPrivate
 
 
 @objc(Bar)
-public class Bar: NSObject {
+open class Bar: NSObject {
    
-    public func doSomething() {
+    open func doSomething() {
         // We can access Baz, which is public:
         let b = Baz()
         println("\(b)")
