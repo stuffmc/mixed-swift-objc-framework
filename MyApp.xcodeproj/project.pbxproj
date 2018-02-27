@@ -71,6 +71,7 @@
 		3E8CDC131A60643A001A88DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E8CDC141A60643A001A88DE /* MyAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppTests.m; sourceTree = "<group>"; };
 		3E8CDC1F1A60646F001A88DE /* Foo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Foo.xcodeproj; sourceTree = "<group>"; };
+		4CA0C63420457BDC00DF459B /* Foo.private.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = Foo.private.modulemap; path = Foo/Foo/Foo.private.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 		3E8CDBEC1A60643A001A88DE = {
 			isa = PBXGroup;
 			children = (
+				4CA0C63420457BDC00DF459B /* Foo.private.modulemap */,
 				3E8CDC1E1A606455001A88DE /* Foo */,
 				3E8CDBF71A60643A001A88DE /* MyApp */,
 				3E8CDC111A60643A001A88DE /* MyAppTests */,
